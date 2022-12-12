@@ -27,7 +27,7 @@ nav i {
     visibility: hidden;
 }
 
-#logo {
+.logo {
     width: 200px;
 }
 
@@ -103,11 +103,10 @@ nav i {
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    
 }
+
 .ourInspiration h2 {
     font-size: 30px;
-    
 }
 
 .ourInspiration p {
@@ -186,7 +185,6 @@ border: none;
     text-align: left;
     background: rgb(246, 210, 210);
     padding: 25px;
-    cursor: pointer;
     display: flex;
 }
 
@@ -217,6 +215,11 @@ border: none;
     background-image: linear-gradient(rgba(90, 93, 105, 0.6), rgba(57, 83, 188, 0.6)),  url(images/traveling\ 2.png);
     background-position: center;
     background-size: cover;
+    margin-top: 30px;
+}
+
+.about-quality {
+    margin-top: 0;
 }
 
 .quality-content h3 {
@@ -269,6 +272,12 @@ border: none;
     cursor: pointer;
 }
 
+.footer-copyright {
+    text-align: center;
+    background: #51516e;
+    color: white;
+}
+
 /* --------------------------------ABOUT PAGE------------------------------------------------ */
 
 /* --------SUB-HEADER-------- */
@@ -314,7 +323,8 @@ border: none;
 
 .about-col img {
     width: 300px;
-    height: 400px;
+   /*  height: 400px; */
+   height: auto;
     margin-left: 5px;
     margin-right: 30px; 
 }
@@ -346,10 +356,11 @@ border: none;
 /* ----------SPECIAL DESTINATION OFFERS----------- */
 
 .destination-offers {
-    /* background: #e7e7e7; */
     align-items: center;
     text-align: center;
 }
+
+
 
 /* ------------PACKAGE OFFERS---------- */
 
@@ -360,6 +371,10 @@ border: none;
     text-align: center;
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.card {
+    margin-bottom: 30px;
 }
 
 .package-offers h2 {
@@ -379,6 +394,143 @@ border: none;
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* --------------------------------CONTACT US PAGE----------------------------------------- */
+
+.header-contact {
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)),  url(https://img.freepik.com/premium-photo/wide-horizontal-background-surface-deep-blue-ocean-water-with-small-waves-high-details_627281-691.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.inline-div{
+    display: inline;
+}
+
+.map {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col .holder {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa-solid {
+    font-size: 25px;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.submit {
+    width: 100px;
+    border-radius: 5px;
+    border: rgb(9, 162, 101);
+    background: rgb(108, 242, 188);
+}
+
+.submit:hover {
+    background: rgb(9, 162, 101);
+    border: 1px solid rgb(9, 162, 101);
+    color: white;
+    transition: 0.5s;
+}
+
+/* ------------------------reviews full page-------------------------- */
+
+.header-reviews {
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)),  url(images/mydestination/happy-family-third-picture.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* -------reviews main part ---------- */
+
+ .write-review {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px; 
+ }
+
+ .write-review h3 {
+    text-align: left;
+ }
+
+ .review-box input, .review-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #dedede;
+ }
+
+ .review-box .fa-regular {
+    cursor: pointer;
+ }
+
+ .review-box .fa-regular:hover {
+    background: yellow;
+ }
+
+
+
+
+
+ /* .newesletter {
+    background: #ccc;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.newesletter hr {
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background:rgb(68, 54, 54);
+}  */
+
+ 
+
+
 
 
 
@@ -430,7 +582,7 @@ border: none;
     }
 
     .navigation-container {
-        position: absolute;
+        position: fixed;
         float: right;
         border: 3px solid gray;
         background:#666699;
@@ -476,11 +628,29 @@ border: none;
 
     .card {
        margin-bottom: 15px;
+       margin-left: 120px;
        
     }
 
     .blog .container  {
         margin-bottom: 10px;
+    }
+
+    .contact-col input, .contact-col textarea {
+        width: 300px;
+    }
+
+    .review-col .fa-sharp, .review-col .fa-solid {
+        color: black;
+
+    }
+
+    .destination-offers .card {
+    margin-left: 0;
+    }
+
+    .about-col {
+        align-items: center;
     }
   
 }

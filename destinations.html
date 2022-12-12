@@ -30,15 +30,15 @@
 <header class="header-destinations">
 
     <nav>
-        <img src="images/exotic_single_logo_white.png" alt="logo" id="logo">
+        <img src="images/exotic_single_logo_white.png" alt="logo" class="logo">
         <div class="navigation-container" id="navigationBar">
             <i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="">DESTINATIONS</a></li>
-                <li><a href="">REVIEWS</a></li>
+                <li><a href="./destinations.html">DESTINATIONS</a></li>
+                <li><a href="./reviews.html">REVIEWS</a></li>
                 <li><a href="./about.html">ABOUT US</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
             </ul>
         </div>
         <i class="fa-solid fa-bars" onclick="openMenu()"></i>
@@ -61,11 +61,13 @@
      <div class="container">
         <div class="row">
             <div class="card mb-3">
-                <img src="images/mydestination/safari horizontal picture 2.jpg" class="card-img-top" alt="safari">
+                <!-- <img src="images/mydestination/safari horizontal picture 2.jpg" class="card-img-top" alt="safari"> -->
+                <img src="https://yellowzebrasafaris.com/media/20421/shutterstock_56118346.jpg?anchor=center&mode=crop&width=2048&height=1024&format=jpg&rnd=131565353830000000" class="card-img-top" alt="safari">
                 <div class="card-body">
                 <h5 class="card-title">SAFARI, AFRICA</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis velit voluptatum rem, impedit dolorem ducimus laboriosam aspernatur laborum ad excepturi commodi, voluptate quam doloribus iure alias. Quas porro itaque voluptas magni eligendi? Tempore ea adipisci accusantium ab possimus id, obcaecati perspiciatis quas voluptas provident, recusandae fugiat exercitationem sit deleniti sunt!</p>
                 <h3 class="card-text">FROM 250$</h3>
+                <a href="#" class="btn btn-primary">BOOK IT NOW</a>
                 </div>
             </div>
         </div>
@@ -164,6 +166,9 @@
             <a href="#" class="btn btn-primary">BOOK IT NOW</a>
             </div>
         </div>
+    </div>
+
+    </div>
 </section>
 
 <!-- -----------------GALLERY------------------- -->
@@ -194,6 +199,14 @@
     </div>
 </section>
 
+<!-------------QUALITY CONTENT QUOTE------------->
+
+
+<section class="quality-content">
+    <h3>THE VALUE FOR EXPERIENCE</h3>
+    <p>Relax, you are with us! We make it simple!</p>
+</section>
+
 
     <!------------FOOTER------------>
 
@@ -201,12 +214,12 @@
     <div class="footer-col-1">
         <h4>ABOUT US</h4>
         <a href="./about.html">About Us</a>
-        <a href="">Our Offers</a>
-        <a href="">Blog</a>
-        <a href="">Reviews</a>
+        <a href="./destinations.html">Our Offers</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./reviews.html">Reviews</a>
     </div>
     <div class="footer-col-2">
-        <img src="images/exotic_single_logo_white.png" alt="logo" id="logo">
+        <img src="images/exotic_single_logo_white.png" alt="logo" class="logo">
     </div>
    <div class="footer-col-3">
         <h4>CONTACT US</h4>
@@ -225,9 +238,11 @@
             <i class="fa-brands fa-linkedin"></i>
             <i class="fa-brands fa-square-twitter"></i>
         </div>
-
    </div>
 </footer>
+<div class="footer-copyright">
+    <p>copyright &copy;2022 exotictravelers. designed by <span>kristina radovanovic</span> </p>
+</div>
 
 <!------------JAVA SCRIPT------------->
 <script>
@@ -241,14 +256,7 @@ function openMenu() {
 function hideMenu() {
     navigationMenu.style.right = "-200px";
 }
-
 </script>
-    
-
-
-
-
-
 
 </body>
 </html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+
+<!----------------------LINKS------------------------>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f1b119233.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<!--------------------HEADER-------------------->
+
+
+    <header class="header-reviews">
+
+        <nav>
+            <img src="images/exotic_single_logo_white.png" alt="logo" class="logo">
+            <div class="navigation-container" id="navigationBar">
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./destinations.html">DESTINATIONS</a></li>
+                    <li><a href="reviews.html">REVIEWS</a></li>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+    
+        <div class="header-text-container">
+            <h1>YOUR DREAM VACATION STARTS WITH US</h1>
+            <p>The world is just one step from here! <br>
+                 Let us help you experience your dream destination</p>
+        </div>
+    </header>
+
+<!-----------------------MAIN REVIEW PAGE----------------->
+
+<section class="reviews">
+    <h3>THE PEOPLE WHO KNOW BEST</h3>
+    <P>CUSTOMER REVIEWS</P>
+
+    <div class="row-wrap">
+        <div class="review-col">
+            <img src="images/user1.jpeg" alt="user-review">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem voluptatem ex dolores ab eveniet, dignissimos magnam? Minima quos doloribus, culpa velit minus quam aliquam ab sed inventore quisquam expedita voluptates cupiditate sit nihil illo.</p>
+                <h3>Ann Johansson</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+        </div>
+
+        <div class="review-col">
+            <img src="images/user2.jpeg" alt="user-review">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem voluptatem ex dolores ab eveniet, dignissimos magnam? Minima quos doloribus, culpa velit minus quam aliquam ab sed inventore quisquam expedita voluptates cupiditate sit nihil illo.</p>
+                <h3>Marc Axelsson</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row-wrap">
+        <div class="review-col">
+            <img src="images/user6.jfif" alt="user-review">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem voluptatem ex dolores ab eveniet, dignissimos magnam? Minima quos doloribus, culpa velit minus quam aliquam ab sed inventore quisquam expedita voluptates cupiditate sit nihil illo.</p>
+                <h3>Claudio Carlsson </h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+        </div>
+
+        <div class="review-col">
+            <img src="images/user7.jfif" alt="user-review">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem voluptatem ex dolores ab eveniet, dignissimos magnam? Minima quos doloribus, culpa velit minus quam aliquam ab sed inventore quisquam expedita voluptates cupiditate sit nihil illo.</p>
+                <h3>Sofia Vergara</h3>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="write-review">
+        <h3>Leave a review</h3>
+
+        <form class="review-box">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <textarea rows="6" placeholder="Leave your comment"></textarea>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i><br>
+            <button type="submit" class="submit">Submit Review</button>
+        </form>
+    </div>
+
+
+</section>
+
+<!-------------QUALITY CONTENT QUOTE------------->
+
+
+<section class="quality-content">
+    <h3>THE VALUE FOR EXPERIENCE</h3>
+    <p>Relax, you are with us! We make it simple!</p>
+</section>
+
+
+<!------------FOOTER------------>
+
+<footer class="footer">
+    <div class="footer-col-1">
+        <h4>ABOUT US</h4>
+        <a href="./about.html">About Us</a>
+        <a href="./destinations.html">Our Offers</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="reviews.html">Reviews</a>
+    </div>
+    <div class="footer-col-2">
+        <img src="images/exotic_single_logo_white.png" alt="logo" class="logo">
+    </div>
+    <div class="footer-col-3">
+        <h4>CONTACT US</h4>
+        <h5>Address</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        
+        <h5>Support Phone</h5>
+        <p>+32563211</p>
+        
+        <h5>EMAIL</h5>
+        <p>cristinaradovanovic@gmail.com</p>
+        
+        <div class="social-media-contact">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-copyright">
+    <p>copyright &copy;2022 exotictravelers. designed by <span>kristina radovanovic</span> </p>
+</div>
+
+<!------------JAVA SCRIPT------------->
+<script>
+    
+let navigationMenu = document.getElementById ("navigationBar");
+
+function openMenu() {
+    navigationMenu.style.right = "0";
+}
+
+function hideMenu() {
+    navigationMenu.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
