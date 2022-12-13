@@ -5,6 +5,10 @@
     box-sizing: border-box;
 } 
 
+body h2, body h3, body h4, body h5 {
+    font-family: 'Crimson Text', serif;
+}
+
 /* -----------HEADER DESIGN------------ */
 
 .header {
@@ -68,13 +72,14 @@ nav i {
 
 .header-text-container h1 {
     font-size: 32px;
-    font-family: 'Forum', cursive;
+    font-family: 'Crimson Text', serif;
 }
 
 .header-text-container p {
-    font-family: 'Forum', cursive;
+    /* font-family: 'Forum', cursive; */
     margin: 20px 0 60px;
     font-size: 18px;
+    font-family: 'Lato', sans-serif;
 }
 
 .destination-btn {
@@ -278,6 +283,10 @@ border: none;
     color: white;
 }
 
+.social-media-contact a {
+    color: white;
+}
+
 /* --------------------------------ABOUT PAGE------------------------------------------------ */
 
 /* --------SUB-HEADER-------- */
@@ -358,6 +367,10 @@ border: none;
 .destination-offers {
     align-items: center;
     text-align: center;
+}
+
+h3.card-text {
+    color: rgb(0, 118, 0);
 }
 
 
@@ -460,7 +473,6 @@ border: none;
 
 .submit:hover {
     background: rgb(9, 162, 101);
-    border: 1px solid rgb(9, 162, 101);
     color: white;
     transition: 0.5s;
 }
@@ -505,59 +517,6 @@ border: none;
  .review-box .fa-regular:hover {
     background: yellow;
  }
-
-
-
-
-
- /* .newesletter {
-    background: #ccc;
-    height: 400px;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 280px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.newesletter hr {
-    width: 70px;
-    height: 3px;
-    margin: 30px auto;
-    border: 0;
-    background:rgb(68, 54, 54);
-}  */
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -651,7 +610,6 @@ border: none;
 
     .about-col {
         align-items: center;
-    }
-  
+    } 
 }
 
